@@ -7,22 +7,22 @@ const FooterContainer = () => {
       <Footer.Container>
         <Footer.Content>
           <Footer.Item>
-            <Footer.Title>Real Home</Footer.Title>
+            <Footer.Title>Satyanarayana Devi Home</Footer.Title>
             <Footer.Text>
               1337 Tengecha Road,Nairobi.Imarisha Tower, Second Floor, Room 135
             </Footer.Text>
             <Footer.List>
               <Footer.ListItem>
                 <Footer.Icon name="fas fa-phone-alt" social="true" />
-                <Footer.Text>+254720843306</Footer.Text>
+                <Footer.Text>+254991143306</Footer.Text>
               </Footer.ListItem>
               <Footer.ListItem>
                 <Footer.Icon name="fab fa-whatsapp" social="true" />
-                <Footer.Text>+254720843306</Footer.Text>
+                <Footer.Text>+254000843306</Footer.Text>
               </Footer.ListItem>
               <Footer.ListItem>
                 <Footer.Icon name="far fa-envelope" social="true" />
-                <Footer.Text>realhome@gmail.com</Footer.Text>
+                <Footer.Text>connect2satyam@gmail.com</Footer.Text>
               </Footer.ListItem>
             </Footer.List>
           </Footer.Item>
