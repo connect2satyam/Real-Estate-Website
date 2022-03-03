@@ -37,7 +37,7 @@ const DashboardContainer = ({ title, children }) => {
           <Dashboard.LeftHeader>
             <Dashboard.Image source="default.jpg" alt="" />
             <Dashboard.Text>
-              Maxine Johnson <Dashboard.Span>(Admin)</Dashboard.Span>
+              Satyanarayana Devi <Dashboard.Span>(Admin)</Dashboard.Span>
             </Dashboard.Text>
           </Dashboard.LeftHeader>
           <Dashboard.LeftContent>
