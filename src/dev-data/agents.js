@@ -20,10 +20,10 @@ const agents = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
     social: {
-      facebook: "https://www.facebook.com/kevin.caster.9655/",
-      instagram: "https://www.facebook.com/kevin.caster.9655/",
-      twitter: "https://www.facebook.com/kevin.caster.9655/",
-      linkedin: "https://www.facebook.com/kevin.caster.9655/",
+      facebook: "https://satyanarayana-devi.web.app/",
+      instagram: "https://satyanarayana-devi.web.app/",
+      twitter: "https://satyanarayana-devi.web.app/",
+      linkedin: "https://satyanarayana-devi.web.app/",
     },
     featured: true,
     listings: [
@@ -121,10 +121,10 @@ const agents = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
     social: {
-      facebook: "https://www.facebook.com/kevin.caster.9655/",
-      instagram: "https://www.facebook.com/kevin.caster.9655/",
-      twitter: "https://www.facebook.com/kevin.caster.9655/",
-      linkedin: "https://www.facebook.com/kevin.caster.9655/",
+      facebook: "https://satyanarayana-devi.web.app/",
+      instagram: "https://satyanarayana-devi.web.app/",
+      twitter: "https://satyanarayana-devi.web.app/",
+      linkedin: "https://satyanarayana-devi.web.app/",
     },
     featured: true,
     photo: "agent4.jpg",
@@ -223,10 +223,10 @@ const agents = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
     social: {
-      facebook: "https://www.facebook.com/kevin.caster.9655/",
-      instagram: "https://www.facebook.com/kevin.caster.9655/",
-      twitter: "https://www.facebook.com/kevin.caster.9655/",
-      linkedin: "https://www.facebook.com/kevin.caster.9655/",
+      facebook: "https://satyanarayana-devi.web.app/",
+      instagram: "https://satyanarayana-devi.web.app/",
+      twitter: "https://satyanarayana-devi.web.app/",
+      linkedin: "https://satyanarayana-devi.web.app/",
     },
     photo: "agent3.jpg",
     featured: true,
@@ -325,10 +325,10 @@ const agents = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
     social: {
-      facebook: "https://www.facebook.com/kevin.caster.9655/",
-      instagram: "https://www.facebook.com/kevin.caster.9655/",
-      twitter: "https://www.facebook.com/kevin.caster.9655/",
-      linkedin: "https://www.facebook.com/kevin.caster.9655/",
+      facebook: "https://satyanarayana-devi.web.app/",
+      instagram: "https://satyanarayana-devi.web.app/",
+      twitter: "https://satyanarayana-devi.web.app/",
+      linkedin: "https://satyanarayana-devi.web.app/",
     },
     photo: "agent3.jpg",
     featured: true,

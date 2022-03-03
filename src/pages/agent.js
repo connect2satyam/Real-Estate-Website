@@ -1,3 +1,4 @@
+/* eslint-disable no-sequences */
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
@@ -27,8 +28,7 @@ const Agentt = () => {
   const categories = Object.entries(
     agent.listings
       .map((listings) => listings.category)
-      .reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1), {})
-      // .reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {})
+      .reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {})
   );
   const [categoryName, setCategoryName] = useState("All");
 
