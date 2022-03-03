@@ -99,7 +99,7 @@ const FooterContainer = () => {
       </Footer.Container>
       <Footer.Bottom>
         <Footer.Container>
-          <Footer.Text>&copy; Real Home. All Rights Reserved</Footer.Text>
+          <Footer.Text>&copy; Satyanarayana Devi. All Rights Reserved</Footer.Text>
         </Footer.Container>
       </Footer.Bottom>
     </Footer>
