@@ -42,11 +42,11 @@ const DashboardContainer = ({ title, children }) => {
           </Dashboard.LeftHeader>
           <Dashboard.LeftContent>
             <Dashboard.List>
-              {adminurls.map((url) => {
-                if (url.subUrl) {
-                  return <LinksWithSubLinks key={url.name} url={url} />;
+              {adminurls.map((currentUrl) => {
+                if (currentUrl.subUrl) {
+                  return <LinksWithSubLinks key={currentUrl.name} url={currentUrl} />;
                 }
-                return <Links url={url.name} url={url} />;
+                return <Links url={currentUrl.name} />;
               })}
             </Dashboard.List>
           </Dashboard.LeftContent>

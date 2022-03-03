@@ -1,15 +1,12 @@
-import React, { useEffect, useState, useRef } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { getAgent } from "../redux/actions/agentsAction";
-import { Section, Agent } from "../components";
+import { Agent, Section } from "../components";
 import {
-  HeaderContainer,
-  ListingItemContainer,
-  ContactAgentContainer,
-  PropertyRelatedContainer,
-  FooterContainer,
+  ContactAgentContainer, FooterContainer, HeaderContainer,
+  ListingItemContainer, PropertyRelatedContainer
 } from "../containers";
+import { getAgent } from "../redux/actions/agentsAction";
 import { getFeaturedList } from "../redux/actions/propertiesAction";
 
 const Agentt = () => {
@@ -30,7 +27,8 @@ const Agentt = () => {
   const categories = Object.entries(
     agent.listings
       .map((listings) => listings.category)
-      .reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {})
+      .reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1), {})
+      // .reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {})
   );
   const [categoryName, setCategoryName] = useState("All");
 

@@ -8,7 +8,8 @@ const BarGraph = ({ properties }) => {
   const count = Object.values(
     properties
       .map((property) => property.category)
-      .reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {})
+      .reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1), {})
+      // .reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {})
   );
 
   const state = {

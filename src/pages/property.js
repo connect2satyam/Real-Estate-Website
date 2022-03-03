@@ -1,25 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
+import { Property, Section } from "../components";
 import {
-  getProperty,
-  getFeaturedList,
-} from "../redux/actions/propertiesAction";
-import { Section, Property } from "../components";
-import {
-  HeaderContainer,
-  ContactAgentContainer,
-  PropertyRelatedContainer,
-  FooterContainer,
+  ContactAgentContainer, FooterContainer, HeaderContainer, PropertyRelatedContainer
 } from "../containers";
-
 import {
   PropertGallery,
   PropertyAddress,
-  PropertyAmenities,
-  PropertyFeatures,
-  PropertyDescription,
+  PropertyAmenities, PropertyDescription, PropertyFeatures
 } from "../partials/property_features_partial";
+import {
+  getFeaturedList, getProperty
+} from "../redux/actions/propertiesAction";
+
 
 const Listing = () => {
   const { id } = useParams();
